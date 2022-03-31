@@ -114,38 +114,28 @@ footer {
 }
 
 .footer-left-section {
-    width: 25%;
+    width: 20%;
     margin-left: 18px;
 }
 
 .footer-middle-section {
-    width: 50%;
+    width: 60%;
     justify-content: center;
 }
 
 .footer-right-section {
-    width: 25%;
+    width: 20%;
+    justify-content: flex-end;
 }
 
 .footer-box {
     color: #a8a8a8;
-}
-
-.video-box {
-    margin-left: 30px;
+    text-align: center;
+    margin-right: 28px;
 }
 
 .footer-box .fa-solid {
-    font-size: 28px;
-}
-
-.fa-microphone {
-    margin: 0 8px;
-}
-
-.fa-video {
-    margin-right: 8px;
-    margin-left: 24px;
+    font-size: 24px;
 }
 
 .footer-box .fa-chevron-up {
@@ -154,6 +144,20 @@ footer {
 }
 
 .footer-box-action-text {
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 6px;
 }
+
+.footer-button {
+    justify-content: flex-end;
+    background-color: #b72726;
+    padding: 8px 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+/* /footer action bar*/
