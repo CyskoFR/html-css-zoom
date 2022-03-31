@@ -138,9 +138,8 @@ footer {
     font-size: 24px;
 }
 
-.footer-box .fa-chevron-up {
-    font-size: 12px;
-    margin-left: 18px;
+.share-box {
+    color: #20d959;
 }
 
 .footer-box-action-text {
