@@ -2,5 +2,49 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
+header {
+    display: flex;
+}
+
+.header-left-section, .header-right-section {
+    display: flex;
+    height: 40px;
+    width: 50%;
+    align-items: center;
+    padding: 0 6px;
+}
+
+.header-right-section {
+    justify-content: flex-end;
+}
+
+.shield-box, .recording-box,.view-box {
+    background-color: #0a0b0b;
+    color: #f5f5f5;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 6px 8px;
+}
+
+.shield-box {
+    color: #20d959;
+    margin-right: 6px;
+}
+
+.recording-box .fa-circle-dot {
+    margin: 0 8px;
+}
+
+.recording-box .fa-pause {
+    margin: 0 8px 0 18px;
+}
+
+.recording-box .fa-stop {
+    margin: 0 8px;
+}
+.view-box .fa-table-cells {
+    margin: 0 4px;
+}
