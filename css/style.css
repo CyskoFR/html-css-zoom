@@ -159,4 +159,8 @@ footer {
     margin-right: 20px;
     cursor: pointer;
 }
+
+.footer-box:hover{
+    filter: brightness(200%);
+}
 /* /footer action bar*/
